@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`categories reducer should handle CATEGORIES_FAILURE 1`] = `
+Object {
+  "categories": Array [],
+  "error": "Error Fetching Categories!",
+  "fetching": false,
+}
+`;
+
+exports[`categories reducer should handle CATEGORIES_REQUEST 1`] = `
+Object {
+  "categories": Array [],
+  "error": null,
+  "fetching": true,
+}
+`;
+
+exports[`categories reducer should handle CATEGORIES_SUCCESS 1`] = `
+Object {
+  "categories": Array [
+    "explicit",
+    "dev",
+    "movie",
+    "food",
+    "celebrity",
+    "science",
+    "sport",
+    "political",
+    "religion",
+    "animal",
+    "history",
+    "music",
+    "travel",
+    "career",
+    "money",
+    "fashion",
+  ],
+  "error": null,
+  "fetching": false,
+}
+`;
+
+exports[`categories reducer should return the initial state 1`] = `
+Object {
+  "categories": Array [],
+  "error": null,
+  "fetching": false,
+}
+`;

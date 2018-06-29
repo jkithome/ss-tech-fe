@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly when fetching 1`] = `
+<React.Fragment>
+  <Header
+    as="h3"
+    block={true}
+    color="teal"
+    textAlign="center"
+  >
+    Chuck Norris Facts
+  </Header>
+  <Image
+    as="img"
+    centered={true}
+    className="logo"
+    size="medium"
+    src="logo.png"
+    ui={true}
+  />
+  <Loading
+    fetching={true}
+  />
+  <CategoryItem
+    cat="explicit"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="explicit"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="dev"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="dev"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="movie"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="movie"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="food"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="food"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="celebrity"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="celebrity"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="science"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="science"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="sport"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="sport"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="political"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="political"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="religion"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="religion"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="animal"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="animal"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="history"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="history"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="music"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="music"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="travel"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="travel"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="career"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="career"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="money"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="money"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="fashion"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="fashion"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+</React.Fragment>
+`;
+
+exports[`Renders correctly when not fetching 1`] = `
+<React.Fragment>
+  <Header
+    as="h3"
+    block={true}
+    color="teal"
+    textAlign="center"
+  >
+    Chuck Norris Facts
+  </Header>
+  <Image
+    as="img"
+    centered={true}
+    className="logo"
+    size="medium"
+    src="logo.png"
+    ui={true}
+  />
+  <Loading
+    fetching={false}
+  />
+  <CategoryItem
+    cat="explicit"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="explicit"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="dev"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="dev"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="movie"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="movie"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="food"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="food"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="celebrity"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="celebrity"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="science"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="science"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="sport"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="sport"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="political"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="political"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="religion"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="religion"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="animal"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="animal"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="history"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="history"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="music"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="music"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="travel"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="travel"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="career"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="career"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="money"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="money"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+  <CategoryItem
+    cat="fashion"
+    category=""
+    factError={null}
+    fetchfact={[Function]}
+    fetching={false}
+    key="fashion"
+    open={false}
+    value="Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+    Chuck Norris eats black holes. They taste like chicken."
+  />
+</React.Fragment>
+`;
+
+exports[`Renders correctly when there was an error fetching categories 1`] = `
+<React.Fragment>
+  <Header
+    as="h3"
+    block={true}
+    color="teal"
+    textAlign="center"
+  >
+    Chuck Norris Facts
+  </Header>
+  <Image
+    as="img"
+    centered={true}
+    className="logo"
+    size="medium"
+    src="logo.png"
+    ui={true}
+  />
+  <Loading
+    fetching={false}
+  />
+  <ErrorDisplay
+    header="Error Fetching Categories!"
+    text="There was an error fetching the categories. Please try again"
+  />
+</React.Fragment>
+`;

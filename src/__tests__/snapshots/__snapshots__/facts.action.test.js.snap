@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async actions creates FACT_FAILURE when fetching joke returns an error 1`] = `
+Array [
+  Object {
+    "type": "FACT_REQUEST",
+  },
+  Object {
+    "failure": "Error Fetching Fact!",
+    "type": "FACT_FAILURE",
+  },
+]
+`;
+
+exports[`async actions creates FACT_SUCCESS when fetching joke has been done 1`] = `
+Array [
+  Object {
+    "type": "FACT_REQUEST",
+  },
+  Object {
+    "fact": Object {
+      "category": Array [
+        "science",
+      ],
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "uojt-t8as5ws5h1q-sjslw",
+      "url": "https://api.chucknorris.io/jokes/uojt-t8as5ws5h1q-sjslw",
+      "value": "Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+  Chuck Norris eats black holes. They taste like chicken.",
+    },
+    "type": "FACT_SUCCESS",
+  },
+]
+`;

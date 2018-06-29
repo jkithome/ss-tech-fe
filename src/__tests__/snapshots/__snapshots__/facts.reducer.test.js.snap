@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`facts reducer should handle FACT_FAILURE 1`] = `
+Object {
+  "error": "Error Fetching Fact!",
+  "fact": Object {},
+  "fetching": false,
+}
+`;
+
+exports[`facts reducer should handle FACT_REQUEST 1`] = `
+Object {
+  "error": null,
+  "fact": Object {},
+  "fetching": true,
+}
+`;
+
+exports[`facts reducer should handle FACT_SUCCESS 1`] = `
+Object {
+  "error": null,
+  "fact": Object {
+    "category": Array [
+      "science",
+    ],
+    "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+    "id": "uojt-t8as5ws5h1q-sjslw",
+    "url": "https://api.chucknorris.io/jokes/uojt-t8as5ws5h1q-sjslw",
+    "value": "Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+  Chuck Norris eats black holes. They taste like chicken.",
+  },
+  "fetching": false,
+}
+`;
+
+exports[`facts reducer should return the initial state 1`] = `
+Object {
+  "error": null,
+  "fact": Object {},
+  "fetching": false,
+}
+`;
