@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly when fetching 1`] = `
+<div
+  className="ui centered grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui active indicating progress"
+          data-percent={100}
+        >
+          <div
+            className="bar"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui blue massive center aligned segment"
+        >
+          Fetching Categories...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when not fetching 1`] = `
+<div
+  className="ui centered grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui raised tertiary center aligned segment"
+        >
+          Click on any one of the categories listed to display a 
+            random joke from the category.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async actions creates CATEGORIES_FAILURE when fetching categories returns an error 1`] = `
+Array [
+  Object {
+    "type": "CATEGORIES_REQUEST",
+  },
+  Object {
+    "failure": "Error Fetching Categories!",
+    "type": "CATEGORIES_FAILURE",
+  },
+]
+`;
+
+exports[`async actions creates CATEGORIES_SUCCESS when fetching categories has been done 1`] = `
+Array [
+  Object {
+    "type": "CATEGORIES_REQUEST",
+  },
+  Object {
+    "categories": Array [
+      "explicit",
+      "dev",
+      "movie",
+      "food",
+      "celebrity",
+      "science",
+      "sport",
+      "political",
+      "religion",
+      "animal",
+      "history",
+      "music",
+      "travel",
+      "career",
+      "money",
+      "fashion",
+    ],
+    "type": "CATEGORIES_SUCCESS",
+  },
+]
+`;

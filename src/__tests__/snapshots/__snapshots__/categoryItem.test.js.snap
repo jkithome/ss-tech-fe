@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly when fetching and not selected category 1`] = `
+<div
+  className="ui grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui blue center aligned segment"
+          onClick={[Function]}
+        >
+          dev
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when fetching, is selected category and open 1`] = `
+<div
+  className="ui grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui blue center aligned segment"
+          onClick={[Function]}
+        >
+          science
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column jokemessage"
+      >
+        <div
+          className="ui message"
+        >
+          <i
+            aria-hidden="true"
+            className="circle notched loading icon"
+          />
+          <div
+            className="content"
+          >
+            <div
+              className="header"
+            >
+              Just one second
+            </div>
+            We are fetching that joke for you.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when not fetching, is selected category and open 1`] = `
+<div
+  className="ui grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui blue center aligned segment"
+          onClick={[Function]}
+        >
+          science
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui message jokemessage"
+        >
+          <div
+            className="content"
+          >
+            <div
+              className="header"
+            >
+              Science Chuck Norris Fact
+            </div>
+            <p>
+              Nothing can escape the gravity of a black hole, except for Chuck Norris. 
+                Chuck Norris eats black holes. They taste like chicken.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when not open 1`] = `
+<div
+  className="ui grid container"
+>
+  <div
+    className="column"
+    columns={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui blue center aligned segment"
+          onClick={[Function]}
+        >
+          science
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when there was an error fetching fact 1`] = `
+<Grid
+  className="container"
+>
+  <GridColumn
+    columns={1}
+  >
+    <GridRow>
+      <GridColumn>
+        <Segment
+          color="blue"
+          onClick={[Function]}
+          textAlign="center"
+        >
+          science
+        </Segment>
+      </GridColumn>
+    </GridRow>
+    <ErrorDisplay
+      header="Error Fetching Fact!"
+      text="There was an error fetching the fact. Please try again"
+    />
+  </GridColumn>
+</Grid>
+`;
